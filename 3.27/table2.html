@@ -1,0 +1,36 @@
+<!-- 파일 이름 : table.html -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>테이블</title>
+    </head>
+    <body>
+        <table border="1">
+            <caption> 차림표 </caption>
+            <colgroup span="2" style="width: 150px;"></colgroup>
+            
+            <col style="width: 100px;">
+        <thead>
+            <tr>
+                <th> 한식 </th> 
+                <th> 중식 </th>
+                <th> 가격 </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> 비빔밥 </td> 
+                <td> 짜장면 </td>
+                <td rowspan="2"> 100원 </td>
+            </tr>
+            <tr>
+                <td> 순두부 </td>
+                <td> 짬뽕 </td>
+            </tr>
+        </tbody>    
+            <tr>
+                <td colspan="3"> 물은 셀프! </td> 
+            </tr>
+        </table>
+    </body>
+</html>
