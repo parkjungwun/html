@@ -1,0 +1,25 @@
+/* 파일 이름: header.CSS */
+*{
+    margin: 0px; padding: 0px;
+    box-sizing: border-box;
+}
+a, a:link, a:valid {
+    color: inherit;
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.container {
+    width: 1140px;
+    margin:  0 auto;
+}
+header {
+    border: 3px solid red;
+    position: absolute;
+    color: black;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+    padding: 1rem;
+}
